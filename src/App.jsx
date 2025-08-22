@@ -1,15 +1,19 @@
 
 import './App.css'
+import Navbar from './Components/Navbar'
+import { Route, Routes } from 'react-router-dom'
+import Homepage from './Pages/homepage'
 
 function App() {
 
 
   return (
     <>
-      <div>
-      <h1 className='text-primary py-4 px-4'>Hello! StarLine Travels</h1>
-
-      </div>
+<Navbar/>
+    <Routes>
+      <Route path='/' index element={<Homepage/>} />
+    </Routes>
+  
     </>
   )
 }
