@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: "Mulish", sans-serif;
+font-family: "Poppins", sans-serif; */
+h1, h2,h3,h4,h5, h6{
+  font-family: "Poppins", sans-serif;
+  line-height: 40px !important;
+}
+p, a{
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+}
+*{
+    text-decoration: none !important;
+    /* overflow-x: hidden; */
+    /* box-sizing: border-box; */
+    /* margin: 0;
+    padding: 0; */
+}
+.scroll{
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  transition: background-color 0.3s ease-in-out !important;
+}
+
+.navbar{
+   font-family: "Mulish", sans-serif;
+   width: 100% !important;
+}
+.navbar-toggler {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important; 
+}
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+
+}
+.navbar-toggler .toggler-line {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 5px 0;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+.navbar ul{
+background: rgba(158, 164, 165, 0.2); 
+  backdrop-filter: blur(10px);          
+  -webkit-backdrop-filter: blur(10px);   
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 12px;
+padding: 5px 30px !important;
+border-radius: 50px;
+}
+.navbar ul li{
+
+}
+.navbar li a{
+ color: #ffffff !important ;
+ font-family: "Mulish", sans-serif ;
+ font-size: 15px !important;
+ 
+}
+.navbar li a.active{
+ color: #47ACFF !important;
+}
+
+.navbar .signUp{
+    background-color: #47ACFF !important;
+    color: #000000;
+}
+.heroSection{
+    background-image: url("../src/assets/utils/heroImg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100% !important;
+    padding-top: 150px !important;
+}
+.heroSection .borderCircle{
+ border: 2px solid #0095F0;
+}
+.heroSection .dotCircle {
+  height: 10px;
+  width: 10px;
+  background-color: red !important;
+ 
+}
+.heroContent{
+  width:  40% !important;
+  
+}
+.heroContent h1{
+  font-size: 50px !important;
+
+}
+.heroContent h1 span{
+  color: #0095F0;
+}
+.heroBox{
+  background: rgba(158, 164, 165, 0.2); 
+  backdrop-filter: blur(10px);          
+  -webkit-backdrop-filter: blur(10px);   
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 12px;
+padding: 10px 20px !important;
+width: 80% !important;
+margin: 1rem auto;   
+
+}
+.heroBox label{
+  color: #000000 !important;
+  font-weight: 700 !important;
+  font-family: "Mulish", sans-serif;
+
+}
+.heroBox input, select{
+
+  border-right: 1px solid #0095F0 !important;
+ 
+}
+.heroBox .form-control{
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.heroBox .searchBtn{
+  background-color: #0095F0 !important;
+  border: none !important;
+  outline: none !important;
+
+}
+.destinationSection{
+  margin: 50px !important;
+}
+.destinationSection h3{
+ color: #0095F0 !important;
+}
+.destinationSection .previous{
+  background-color: #0095F0;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+}
+.destinationSection .backward{
+  border: 2px solid #0095F0;
+  color: #000000;
+   width: 40px;
+  height: 40px;
+}
+.destinationSection .price{
+  color: #0095F0;
+  font-family: "Poppins", sans-serif;
+
+  
+}
+.destinationSection .decision{
+  color: #0095F0;
+
+}
+.destinationSection .decision p{
+  font-size: 12px !important;
+  font-weight: 400 !important;
+}
+.aboutIntro .statistics{
+  gap: 40px;
+}
+.aboutIntro .stats h1{
+  color: #0095F0 !important;
+}
+.aboutIntro .stats p{
+font-size: 14px !important;
+margin-top: 0px !important;
+}
+.offers{
+  background-color: #AEE4FF;
+}
+.offers .boxCard{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.boxCard button{
+  background-color: #00173A;
+}
+.boxCard button:hover{
+  background-color: transparent !important;
+  color: #00173A !important;
+  border:  1px solid #00173A !important;
+}
+.favorites{
+  background-color: #F2FCFF;
+}
+.favorites h3{
+   color: #0095F0 !important;
+}
+.book-btn {
+  color: #0095F0;
+  border: 1px solid #0095F0;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.book-btn:hover {
+  background: #0095F0;
+  color: #fff;
+}
+.subscribe{
+  background: url("../src/assets/utils/subscribebg.png");
+      background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100% !important;
+}
+
+.form-control {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.form-control:focus {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.footer{
+  background-color: #00173A;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px)  {
+  .navbar {
+background: rgba(158, 164, 165, 0.2) !important; 
+  backdrop-filter: blur(10px) !important;          
+  -webkit-backdrop-filter: blur(10px) !important;   
+  border: 1px solid rgba(255, 255, 255, 0.2) !important; 
+  border-radius: 12px !important;
+padding: 5px 10px !important ;
+border-radius: 50px !important;
+}
+.heroSection{
+   padding-top: 140px !important;
+}
+ .heroContent{
+  width:  100% !important;
+  
+}
+.heroContent h1{
+  font-size: 22px !important;
+}
+.heroSection p{
+  font-size: 14px !important;
+}
+.heroBox{
+    width: 90% !important;
+}
+
+
+}
+
+/* tablet screen styling */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar  {
+background: rgba(158, 164, 165, 0.2) !important; 
+  backdrop-filter: blur(10px) !important;          
+  -webkit-backdrop-filter: blur(10px) !important;   
+  border: 1px solid rgba(255, 255, 255, 0.2) !important; 
+  border-radius: 12px !important;
+padding: 5px 30px !important ;
+border-radius: 50px !important;
+}
+.heroSection{
+   padding-top: 400px !important;
+}
+ .heroContent{
+  width:  80% !important;
+  
+}
+.heroContent h1{
+  font-size: 60px !important;
+}
+.heroSection p{
+  font-size: 15px !important;
+}
+.heroBox{
+    width: 100% !important;
+}
+}
+

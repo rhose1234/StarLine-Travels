@@ -2,3 +2,109 @@
 
 /* font-family: "Mulish", sans-serif;
 font-family: "Poppins", sans-serif; */
+h1, h2,h3,h4,h5, h6{
+  font-family: "Poppins", sans-serif;
+  line-height: 40px !important;
+}
+p, a{
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+}
+*{
+    text-decoration: none !important;
+    /* overflow-x: hidden; */
+    /* box-sizing: border-box; */
+    /* margin: 0;
+    padding: 0; */
+}
+.scroll{
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  transition: background-color 0.3s ease-in-out !important;
+}
+
+.navbar{
+   font-family: "Mulish", sans-serif;
+   width: 100% !important;
+}
+.navbar-toggler {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important; 
+}
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+
+}
+.navbar-toggler .toggler-line {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 5px 0;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+.navbar ul{
+background: rgba(158, 164, 165, 0.2); 
+  backdrop-filter: blur(10px);          
+  -webkit-backdrop-filter: blur(10px);   
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 12px;
+padding: 5px 30px !important;
+border-radius: 50px;
+}
+.navbar ul li{
+
+}
+.navbar li a{
+ color: #ffffff !important ;
+ font-family: "Mulish", sans-serif ;
+ font-size: 15px !important;
+ 
+}
+.navbar li a.active{
+ color: #47ACFF !important;
+}
+
+.navbar .signUp{
+    background-color: #47ACFF !important;
+    color: #000000;
+}
+
+.footer{
+  background-color: #00173A;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px)  {
+  .navbar {
+background: rgba(158, 164, 165, 0.2) !important; 
+  backdrop-filter: blur(10px) !important;          
+  -webkit-backdrop-filter: blur(10px) !important;   
+  border: 1px solid rgba(255, 255, 255, 0.2) !important; 
+  border-radius: 12px !important;
+padding: 5px 10px !important ;
+border-radius: 50px !important;
+}
+
+
+
+}
+
+/* tablet screen styling */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar  {
+background: rgba(158, 164, 165, 0.2) !important; 
+  backdrop-filter: blur(10px) !important;          
+  -webkit-backdrop-filter: blur(10px) !important;   
+  border: 1px solid rgba(255, 255, 255, 0.2) !important; 
+  border-radius: 12px !important;
+padding: 5px 30px !important ;
+border-radius: 50px !important;
+}
+}
+
