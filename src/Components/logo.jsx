@@ -1,9 +1,8 @@
 import React from 'react'
+import logo from "../assets/utils/logo.png"
 
 export default function Logo() {
   return (
-    <h1>
-        ✈️Star Link
-    </h1>
+   <img src={logo} />
   )
 }
